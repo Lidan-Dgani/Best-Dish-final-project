@@ -1,0 +1,23 @@
+.createCard {
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(11, 126, 219);
+  z-index: 90;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 35px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  transition: transform 0.2s ease-in-out;
+}
+
+.createCard:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
